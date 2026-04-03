@@ -1,0 +1,4 @@
+neighborhood_id,destination_type,destination_address,notes
+R03,city_center,Calle de Amaniel 13,City center is the same point for all neighborhoods within Madrid
+R03,nearest_commercial_center,Calle Virgen de la Paloma 61,Centroid of nearest commercial cluster above median commercial density
+R03,nearest_hospital,Hospital Universitario del Sureste - Urgencias,Geographically closest hospital to the neighborhood origin point

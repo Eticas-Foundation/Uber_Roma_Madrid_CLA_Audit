@@ -1,0 +1,21 @@
+parameter,value,notes
+total_neighborhoods,20,10 Roma settlements + 10 control neighborhoods
+roma_neighborhoods,10,All in Community of Madrid
+control_neighborhoods,10,7 well-off municipalities near Roma settlements + 3 inner-city neighborhoods from prior study
+destination_types,3,"City center, nearest commercial center, nearest hospital"
+total_routes,60,20 neighborhoods × 3 destination types
+total_trip_requests,240,60 routes × 4 time windows
+time_windows,4,"08:00–10:00 (rush), 11:00–13:00 (off-peak), 14:00–16:00 (off-peak), 17:00–19:00 (rush)"
+data_collection_method,sock puppet account,Fake account used to simulate rider behaviour; no actual trips were confirmed
+platform_tested,Uber,Via the Uber mobile/web application interface
+service_type,UberX,Standard Uber service tier
+metrics_recorded,"ride_availability, estimated_wait_time",Ride availability = whether Uber offered an EWT for the submitted request
+geospatial_tool_routes,Google Maps Routes API,Used to estimate car travel time and distance per route accounting for real-time traffic
+geospatial_tool_destinations,OpenStreetMap (OSM),Used to identify commercial areas (landuse=commerce/retail) and hospitals (amenity=hospital)
+commercial_area_clustering,K-Means Euclidean distance matrix,Convex hull areas calculated; centroids used as destination points
+income_data_source,INE Household Income Distribution Map 2022,Used to classify municipalities as above/below median household income
+community_partner,Fundación Secretariado Gitano (FSG),Provided initial advice on Roma settlement identification; 100+ settlements mapped
+community_partner_2,European Roma Rights Centre (ERRC),Acknowledged in report
+statistical_test_availability,Chi-squared test,Tests association between group (Roma/control) and ride availability (binary)
+statistical_test_ewt,Welch's t-test,Tests difference in mean EWT between Roma and control groups
+significance_threshold,0.05,All reported results are statistically significant (p < 0.05)

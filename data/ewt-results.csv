@@ -1,0 +1,17 @@
+disaggregation,category,group,counted_routes,sum_ewt_min,avg_ewt_min,roma_control_ratio,p_value,significant
+aggregate,all,Control,120,747,6.225000,,1.055896e-08,TRUE
+aggregate,all,Roma,88,791,8.988636,1.44,1.055896e-08,TRUE
+destination,city_center,Control,,,6.200000,,0.000458,TRUE
+destination,city_center,Roma,,,9.103448,1.47,0.000458,TRUE
+destination,nearest_commercial_center,Control,,,6.225000,,0.000486,TRUE
+destination,nearest_commercial_center,Roma,,,9.103448,1.46,0.000486,TRUE
+destination,nearest_hospital,Control,,,6.250000,,0.004377,TRUE
+destination,nearest_hospital,Roma,,,8.766667,1.40,0.004377,TRUE
+time_of_day,08:00-09:00,Control,,,3.900000,,0.003702,TRUE
+time_of_day,08:00-09:00,Roma,,,6.500000,1.67,0.003702,TRUE
+time_of_day,11:00-12:00,Control,,,5.000000,,0.000132,TRUE
+time_of_day,11:00-12:00,Roma,,,7.904762,1.58,0.000132,TRUE
+time_of_day,14:00-15:00,Control,,,7.066667,,0.000135,TRUE
+time_of_day,14:00-15:00,Roma,,,9.571429,1.35,0.000135,TRUE
+time_of_day,18:00-19:00,Control,,,8.933333,,0.000032,TRUE
+time_of_day,18:00-19:00,Roma,,,12.181818,1.36,0.000032,TRUE

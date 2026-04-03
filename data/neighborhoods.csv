@@ -1,0 +1,21 @@
+neighborhood_id,group,type,name,municipality,notes
+R01,Roma,settlement,Camino Camarma,Community of Madrid,
+R02,Roma,settlement,Los Salobrales,Community of Madrid,
+R03,Roma,settlement,Chinchón,Community of Madrid,
+R04,Roma,settlement,Estremera,Community of Madrid,
+R05,Roma,settlement,Humanes,Community of Madrid,
+R06,Roma,settlement,Cañada Real,Community of Madrid,
+R07,Roma,settlement,Las Sabinas,Community of Madrid,
+R08,Roma,settlement,Cañada Real - Rivas-Vaciamadrid,Community of Madrid,
+R09,Roma,settlement,Torrejón de la Calzada,Community of Madrid,
+R10,Roma,settlement,Fuente el Saz de Jarama,Community of Madrid,
+C01,Control,municipality,Cobeña,Community of Madrid,Socioeconomically well-off; near Roma settlement
+C02,Control,municipality,Ajalvir,Community of Madrid,Socioeconomically well-off; near Roma settlement
+C03,Control,municipality,Villaviciosa de Odón,Community of Madrid,Socioeconomically well-off; near Roma settlement
+C04,Control,municipality,Getafe,Community of Madrid,Socioeconomically well-off; near Roma settlement
+C05,Control,municipality,Pinto,Community of Madrid,Socioeconomically well-off; near Roma settlement
+C06,Control,municipality,Coslada,Community of Madrid,Socioeconomically well-off; near Roma settlement
+C07,Control,municipality,Pozuelo de Alarcón,Community of Madrid,Socioeconomically well-off; near Roma settlement
+C08,Control,inner-city neighborhood,Barajas,Madrid,Inherited from previous Eticas (Un)Fairness in Mobility study
+C09,Control,inner-city neighborhood,Fuencarral-El Pardo,Madrid,Inherited from previous Eticas (Un)Fairness in Mobility study
+C10,Control,inner-city neighborhood,Vicalvaro,Madrid,Inherited from previous Eticas (Un)Fairness in Mobility study
